@@ -1,0 +1,269 @@
+@charset "UTF-8";
+
+
+/* =========================
+   全体
+========================= */
+
+body {
+  margin: 0;
+
+  /* H1以外の基本文字色 */
+  color: white;
+
+  background-image: url("/images/background.png");
+
+  background-size: cover;
+
+  background-position: center center;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+  display: block;
+
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+
+/* =========================
+   HERO H1
+========================= */
+
+.hero-title {
+  font-family: "Estonia", cursive;
+
+  font-size: 100px;
+
+  font-weight: 400;
+
+  margin: 40px 0;
+
+  background: linear-gradient(
+    90deg,
+    red,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    purple,
+    red
+  );
+
+  background-size: 200% auto;
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  color: transparent;
+
+  animation: rainbow 7s linear infinite;
+}
+
+
+@keyframes rainbow {
+
+  to {
+    background-position: 200% center;
+  }
+
+}
+
+
+/* =========================
+   HERO画像
+========================= */
+
+.hero img {
+  display: block;
+  width: 500px;
+  max-width: calc(100% - 40px);
+  height: auto;
+  margin: 0 auto;
+
+  transition: 0.5s;
+}
+
+.hero img:hover {
+  transform: scale(1.1);
+}
+
+
+/* =========================
+   SECTION
+========================= */
+
+.section {
+
+  /*
+   PCでは左右140px
+  */
+  margin-left: 140px;
+  margin-right: 140px;
+
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+}
+
+
+/* =========================
+   H2
+========================= */
+
+.section-title {
+
+  font-family: "WindSong", cursive;
+
+  font-size: 36px;
+
+  text-align: center;
+
+  color: white;
+
+}
+
+
+/* =========================
+   MEMBER GRID
+========================= */
+
+.card-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 30px;
+
+}
+
+
+/* =========================
+   CARD
+========================= */
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+
+  border: none;
+  padding: 20px;
+
+  text-align: center;
+}
+
+.card h3 {
+  margin: 10px 0 0;
+}
+
+.card p {
+  margin: 0;
+}
+
+/* カード画像 */
+
+.card .photo {
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  margin: 0 auto;
+
+  cursor: pointer;
+}
+
+
+/* =========================
+   CARD H3
+========================= */
+
+.card h3 {
+  font-size: 36px;
+
+  font-family: "Sancreek", cursive;
+
+  margin: 0 auto;
+
+  color: white;
+
+}
+
+
+/* =========================
+   DISCOGRAPHY / BIOGRAPHY
+========================= */
+
+.box-section {
+
+  border: 1px solid white;
+
+  padding: 0 30px 0;
+
+}
+
+
+/* =========================
+   スマホ
+========================= */
+
+@media (max-width: 600px) {
+
+  /* 外側余白を小さくする */
+
+  .section {
+
+    margin-left: 20px;
+
+    margin-right: 20px;
+
+  }
+
+
+  /* H1 */
+
+  .hero-title {
+
+    font-size: 45px;
+
+  }
+
+
+  /* カードを1列 */
+
+  .card-grid {
+
+    grid-template-columns: 1fr;
+
+  }
+
+
+  /* H2 */
+
+  .section-title {
+
+    font-size: 36px;
+
+  }
+
+}
+
+.footer{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
