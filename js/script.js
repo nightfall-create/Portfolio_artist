@@ -23,11 +23,11 @@ function changeImage(photoId) {
     }
 
     if (number === 1) {
-      photo.src = "/images/h1.jpg";
+      photo.src = "/images/h1.png";
     }
 
     if (number === 2) {
-      photo.src = "/images/h2.jpg";
+      photo.src = "/images/h2.png";
     }
   }
 
@@ -50,11 +50,11 @@ function changeImage(photoId) {
     }
 
     if (number === 1) {
-      photo.src = "/images/k1.jpg";
+      photo.src = "/images/k1.png";
     }
 
     if (number === 2) {
-      photo.src = "/images/k2.jpg";
+      photo.src = "/images/k2.png";
     }
   }
 
@@ -77,11 +77,11 @@ function changeImage(photoId) {
     }
 
     if (number === 1) {
-      photo.src = "/images/t1.jpg";
+      photo.src = "/images/t1.png";
     }
 
     if (number === 2) {
-      photo.src = "/images/t2.jpg";
+      photo.src = "/images/t2.png";
     }
   }
 
@@ -104,15 +104,15 @@ function changeImage(photoId) {
     }
 
     if (number === 1) {
-      photo.src = "/images/y1.jpg";
+      photo.src = "/images/y1.png";
     }
 
     if (number === 2) {
-      photo.src = "/images/y2.avif";
+      photo.src = "/images/y2.png";
     }
 
     if (number === 3) {
-      photo.src = "/images/y3.jpg";
+      photo.src = "/images/y3.png";
     }
   }
 
