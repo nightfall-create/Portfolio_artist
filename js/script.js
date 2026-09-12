@@ -19,15 +19,15 @@ function changeImage(photoId) {
     }
 
     if (number === 0) {
-      photo.src = "/images/h.png";
+      photo.src = "../images/h.png";
     }
 
     if (number === 1) {
-      photo.src = "/images/h1.png";
+      photo.src = "../images/h1.png";
     }
 
     if (number === 2) {
-      photo.src = "/images/h2.png";
+      photo.src = "../images/h2.png";
     }
   }
 
@@ -46,15 +46,15 @@ function changeImage(photoId) {
     }
 
     if (number === 0) {
-      photo.src = "/images/k.png";
+      photo.src = "../images/k.png";
     }
 
     if (number === 1) {
-      photo.src = "/images/k1.png";
+      photo.src = "../images/k1.png";
     }
 
     if (number === 2) {
-      photo.src = "/images/k2.png";
+      photo.src = "../images/k2.png";
     }
   }
 
@@ -73,15 +73,15 @@ function changeImage(photoId) {
     }
 
     if (number === 0) {
-      photo.src = "/images/t.png";
+      photo.src = "../images/t.png";
     }
 
     if (number === 1) {
-      photo.src = "/images/t1.png";
+      photo.src = "../images/t1.png";
     }
 
     if (number === 2) {
-      photo.src = "/images/t2.png";
+      photo.src = "../images/t2.png";
     }
   }
 
@@ -100,19 +100,19 @@ function changeImage(photoId) {
     }
 
     if (number === 0) {
-      photo.src = "/images/y.png";
+      photo.src = "../images/y.png";
     }
 
     if (number === 1) {
-      photo.src = "/images/y1.png";
+      photo.src = "../images/y1.png";
     }
 
     if (number === 2) {
-      photo.src = "/images/y2.png";
+      photo.src = "../images/y2.png";
     }
 
     if (number === 3) {
-      photo.src = "/images/y3.png";
+      photo.src = "../images/y3.png";
     }
   }
 
