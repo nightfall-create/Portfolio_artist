@@ -11,7 +11,7 @@ body {
   /* H1以外の基本文字色 */
   color: white;
 
-  background-image: url("/images/background.png");
+  background-image: url("../images/background.png");
 
   background-size: cover;
 
